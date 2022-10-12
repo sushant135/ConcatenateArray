@@ -10,6 +10,11 @@ public class Concat {
 
         int[] result = new int[length];
         int pos = 0;
+        for (int element : array1) {
+            result[pos] = element;
+            pos++;
+        }
+
         for (int element : array2) {
             result[pos] = element;
             pos++;
